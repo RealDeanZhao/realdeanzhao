@@ -2,3 +2,12 @@ baseURL = "http://realdeanzhao.github.io"
 languageCode = "zh-CN"
 title = "Deannnnnnnn"
 theme = "maupassant"
+
+[params]
+  busuanzi = true
+
+[params.utteranc]
+    enable = true
+    repo = "RealDeanZhao/realdeanzhao-comment"    # 存储评论的Repo，格式为 owner/repo
+    issueTerm = "pathname"  #表示你选择以那种方式让github issue的评论和你的文章关联。
+    theme = "github-light" # 样式主题，有github-light和github-dark两种
