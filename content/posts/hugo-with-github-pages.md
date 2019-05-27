@@ -1,6 +1,8 @@
 ---
 title: "使用Hugo和Github Pages搭建自己的博客"
 date: 2019-05-27T12:41:05+08:00
+tags: ["hugo", "github pages"]
+categories: ["技术"]
 ---
 
 # 使用Hugo和Github Pages搭建自己的博客
@@ -47,11 +49,11 @@ ctrl + c
 第一个仓库用于保存hugo自身的文件，比如主题等。仓库名随意，在此，我们将仓库取名为blog。
 
 第二个仓库就是github pages的仓库了，要求仓库名必须以如下形式：<github_user_name>.github.io 。在此，我们以realdeanzhao.github.io为例。
-### 2 给blog仓库添加远程git
+### 2 给站点目录添加git远程仓库，此仓库为刚才创建的blog仓库
 ```shell
 git remote add origin <your-blog-repo-url>
 ```
-### 3 添加public为git子模块
+### 3 添加站点目录下的public目录为git子仓库
 ```shell
 # 删除刚才hugo启动时发布的内容
 rm -rf public
