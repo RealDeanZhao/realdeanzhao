@@ -1,8 +1,7 @@
-baseURL = "http://realdeanzhao.github.io"
+baseURL = "https://deanzhao.tech"
 languageCode = "zh-CN"
 title = "Deannnnnnnn"
 theme = "maupassant"
-
 
 googleAnalytics = "UA-140826156-1"
 
